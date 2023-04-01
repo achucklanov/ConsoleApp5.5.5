@@ -6,12 +6,12 @@
         {
             Console.WriteLine("Здравствуйте!");
 
-            int f = Factorial(20);
+            decimal f = Factorial(20);
 
             Console.WriteLine(f);
             Console.ReadKey();
 
-            static int Factorial(int x)
+            static decimal Factorial(int x)
             {
 
 
