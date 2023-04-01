@@ -6,9 +6,14 @@
         {
             Console.WriteLine("Здравствуйте!");
 
+            int f = Factorial(20);
+
+            Console.WriteLine(f);
+            Console.ReadKey();
+
             static int Factorial(int x)
             {
-                x = 20;
+
 
                 if (x == 0)
                 {
@@ -19,7 +24,9 @@
                     return x * Factorial(x - 1);
                 }
             }
-
         }
+        
+
+
     }
 }
